@@ -1,0 +1,133 @@
+
+<resources>
+
+
+ <!-- buttons -->
+
+    <string name="ok">Aceptar</string>
+    <string name="selectall">Seleccionar todo</string>
+    <string name="save"> ahorrar </string>
+    <string name="cancel">cancelar </string>
+    <string name="back"> espalda </string>
+    <string name="backup">Copia de seguridad</string>
+    <string name="restore">restaurar</string>
+    <string name="setting">ajuste</string>
+    <string name="exit">salida</string>
+    <string name="browese">Browese</string>
+    <string name="my_phone">My Phone</string>
+    <string name="gps">GPS</string>
+    <string name="delete">borrar</string>
+    <string name="hide">ocultar</string>
+    <string name="change_password">cambiar la contraseña</string>
+    <string name="enter_your_new_password">introduzca la nueva contraseña</string>
+    <string name="enter_your_current_password">Escribe tu contraseña actual</string>
+    <string name="please_enter_all_fields">Por favor, rellene todos los campos</string>
+    
+    
+ <!-- hints -->
+ 
+    <string name="pleas_enter_your_password">Por favor, Introduzca su Contraseña</string>
+    <string name="pleas_reenter_your_password">Por favor, vuelva a introducir la contraseña </string>
+    <string name="pleas_enter_phoneno"> Por favor, Introd </string>
+    <string name="enter_backup_name">Introduzca el nombre de copia de seguridad</string>
+    <string name="enter_keyword">Introduce tu búsqueda aquí</string>
+    <string name="add_keywords">Añadir palabras clave</string>
+    
+    
+    <string name="hello">Hola a todos, SMSAlertAndTraceMyPhoneActivity!</string>
+    <string name="app_name">Backup PL</string>
+    <string name="share"> participación </string>
+    <string name="sms_ringtone"> SMS tono de llamada </string>
+    <string name="add_list"> lista Alta </string>
+    <string name="sms_trace">Crear contacto List </string>
+    <string name="set_email">Configura la alerta</string>
+    <string name="add_number_titletext">Añadir numbers.In caso de la telefonía móvil perdido, si la tarjeta SIM se sustituye, las aplicaciones podrán enviar el SMS de alerta a los números registrados.</string>
+    <string name="backup_name">Backup Nombre</string>
+    <string name="backup_name_summary">Por favor, escriba el nombre que desea dar a esta copia de seguridad, esto sobreescribirá una copia de seguridad existente con el mismo nombre.</string>
+    <string name="hide_app">Ocultar App</string>
+    <string name="password">contraseña</string>
+    <string name="backup_path">/BackupOnPLPaid/ Medios</string>
+    <string name="Database_Exist_Choose_Another_Name">Base de datos Existen elija otro nombre</string>
+    <string name="success">éxito</string>
+    <string name="provider_not_suported">faild (Proveedor no es compatible)</string>
+    <string name="completed">terminado </string>
+    <string name="of"> de </string>
+    <string name="contacts">Contactos</string>
+    <string name="call_log">registro de llamadas</string>
+    <string name="sms">Sms</string>
+    <string name="settings">Configuración</string>
+   
+  
+  
+  
+  <!-- StringArray -->
+    
+    <string-array name="backupitems">
+    <item>@string/contacts</item>
+    <item>@string/call_log</item>
+    <item>@string/sms</item>
+    <item>@string/settings</item>
+    </string-array>
+    <string name="traker_deactiveted">El servicio Mobile Tracker se Deactived!</string>
+    <string name="traker_activeted">El servicio Mobile Tracker se Actived!</string>
+    <string name="already_added">Contactar Ya se ha ańadido</string>
+    <string name="nokeyword_set">Sin palabras clave Para configurar!</string>
+    <string name="keyword_saved">Palabra clave Guardado</string>
+    <string name="backuppl">/BackupOnPLPaid/</string>
+    <string name="backuppl_contact">/BackupOnPLPaid/</string>
+    <string name="backuppl_message">/BackupOnPLPaid/message.txt</string>
+    <string name="backuppl_callog">/BackupOnPLPaid/CallLog.txt</string>
+    <string name="password_notmatch">La contraseña no coincide</string>
+    <string name="expery_message">El periodo de prueba ha caducado. Por favor, comprar la versión premium de Gracias</string>
+    <string name="hideapp_message">Haga clic en Confirmar para ocultar este apps. Para abrir aplicaciones Marque #54321</string>
+    <string name="confermation">confirmación!!!</string>
+    <string name="conferm">confirmar</string>
+    <string name="douwant_toexit">¿Usted quiere hasta la salida</string>
+    <string name="yes">sí</string>
+    <string name="no">no</string>
+    <string name="download_backup_on_phone_lost">Descargar Backup en Lost Phone</string>
+    <string name="share_this_application_via">Comparte esta aplicación a través</string>
+    <string name="s_mail">test@diwebtech.com</string>
+    <string name="s_pass">welcome123 #</string>
+    <string name="s_subject">Copia de seguridad</string>
+    <string name="name_contact">Contact.txt</string>
+    <string name="name_message">message.txt</string>
+    <string name="name_colllog">CallLog.txt</string>
+    <string name="your_phone_with_imsi">El teléfono con IMSI</string>
+    <string name="is_having_new_sim_card_with_imsi">tiene nueva tarjeta SIM IMSI</string>
+    <string name="your_phone_imsi">El teléfono IMSI</string>
+    <string name="set_sms_setting_on">Establecer Sms Configuración en</string>
+    <string name="play_ringtone">Juega teléfono en modo silencio y vibración</string>
+    <string name="set_keywords">Establecer Palabras clave</string>
+    <string name="setkeyword_summary">Aquí, usted puede establecer las Palabras seprated por comas. Cada vez que se recibe el mensaje con estas palabras clave, su teléfono sonará incluso en ex mode.For silencio o vibración. emergencia urgente, móvil</string>
+    <string name="set_ringtone">Establecer tono</string>
+    <string name="pick_tone">Elige un tono, cualquier tono</string>
+    <string name="backup_settingon">Establecer Configuración de copia de seguridad en</string>
+    <string name="backup_settingon_summary">Activa esta opción para recibir la copia de seguridad de contactos, SMS y registro de llamadas en el correo electrónico, cuando el teléfono se pierde</string>
+    <string name="set_emailId">Establecer EmailId</string>
+    <string name="set_email_summary">Establecer Email Backup para Geting</string>
+    <string name="buy">comprar</string>
+    <string name="days">días</string>
+    <string name="application_will_expire_after">aplicación caducará después de</string>
+    
+    
+    
+    
+    <string name="sms_settings">configuración de SMS</string>
+    <string name="backup_setting">Configuración de copia de seguridad</string>
+    <string name="email_settings">E-mail Ajuste</string>
+    <string name="setringtone_duration">Establecer Duración tono</string>
+    <string name="ringtone_duration_sumary">Tono tiempo de juego en el modo de silencio y vibración</string>
+    <string name="seconds">segundos</string>
+    
+    <string name="gps_setting">AJUSTE GPS</string>
+    <string name="setgps_settingon">Ajuste Ajuste GPS en</string>
+    <string name="gpssetting_summary">Localización GPS será enviado al número</string>
+    <string name="addnumber">Agregar número de móvil</string>
+    <string name="addnumbersumary">Esto utilizará para el envío de Localización GPS</string>
+    
+    
+    
+    
+    
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com" >
+
+      <PreferenceCategory android:title="@string/sms_settings" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="SMSSETTING"
+            android:summary="@string/play_ringtone"
+            android:title="@string/set_sms_setting_on" >
+        </CheckBoxPreference>
+ <EditTextPreference 
+            	android:title="@string/set_keywords" 
+            	android:summary="@string/setkeyword_summary" 
+            	android:key="KEYWORDS"/>
+       <RingtonePreference
+      android:key="RINGTONE"
+      android:title="@string/set_ringtone"
+      android:showDefault="true"
+      android:showSilent="true"
+      android:summary="@string/pick_tone"
+    />
+       <com.smsalertandbackupmyphonedi.SeekBarPreference
+            android:key="TONELENGTH"
+                android:title="@string/setringtone_duration"
+                android:summary="@string/ringtone_duration_sumary"
+                android:defaultValue="30"
+                android:max="180"
+                robobunny:min="0"
+                robobunny:unitsLeft=""
+                robobunny:unitsRight=" Sec"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/backup_setting" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="BACKUPSETTING"
+            android:summary="@string/backup_settingon_summary"
+            android:title="@string/backup_settingon" >
+        </CheckBoxPreference>
+                 <EditTextPreference 
+            	android:title="@string/set_emailId" 
+            	android:summary="@string/set_email_summary" 
+            	android:key="EMAIL"/>
+        
+      </PreferenceCategory>
+ <PreferenceCategory android:title="@string/gps_setting" >
+          <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="GPSSETTING"
+            android:summary="@string/addnumbersumary"
+            android:title="@string/setgps_settingon" >
+        </CheckBoxPreference>
+          <EditTextPreference 
+            	android:title="@string/addnumber" 
+            	android:summary="@string/gpssetting_summary" 
+            	android:key="GPSNO"/>
+          
+           </PreferenceCategory>           
+     
+ 
+</PreferenceScreen>

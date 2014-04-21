@@ -1,0 +1,131 @@
+
+<resources>
+
+
+ <!-- buttons -->
+
+    <string name="ok">OK</string>
+    <string name="selectall">모두 선택</string>
+    <string name="save"> 저장 </string>
+    <string name="cancel"> 취소 </string>
+    <string name="back"> 뒤로 </string>
+    <string name="backup">백업</string>
+    <string name="restore">복원</string>
+    <string name="setting">설정</string>
+    <string name="exit">출구</string>
+    <string name="browese">Browese</string>
+    <string name="my_phone">내 전화 번호</string>
+    <string name="gps">GPS</string>
+    <string name="delete">삭제</string>
+    <string name="hide">숨기기</string>
+    <string name="change_password">비밀번호를 변경</string>
+    <string name="enter_your_new_password">새 비밀번호를 입력하십시오</string>
+    <string name="enter_your_current_password">현재 암호를 입력</string>
+    <string name="please_enter_all_fields">모든 필드를 입력 해주십시오</string>
+    
+    
+ <!-- hints -->
+ 
+    <string name="pleas_enter_your_password">비밀번호를 입력하세요</string>
+    <string name="pleas_reenter_your_password">비밀번호를 다시 입력하세요 </string>
+    <string name="pleas_enter_phoneno"> 어떤 전화 번호를 입력하세요 없음 </string>
+    <string name="enter_backup_name">백업 이름을 입력</string>
+    <string name="enter_keyword">키워드를 입력</string>
+    <string name="add_keywords">키워드를 추가</string>
+    
+    
+    <string name="hello">안녕하세요, SMSAlertAndTraceMyPhoneActivity!</string>
+    <string name="app_name">백업 OT</string>
+    <string name="share"> 몫 </string>
+    <string name="sms_ringtone"> SMS의 벨소리 </string>
+    <string name="add_list"> 추가 목록 </string>
+    <string name="sms_trace">대화 상대 목록 만들기 </string>
+    <string name="set_email">이메일 설정</string>
+    <string name="add_number_titletext">SIM 교체하는 경우, 앱이 등록 된 번호로 알림 SMS를 보내드립니다 모바일을 잃은 numbers.In 케이스를 추가합니다.</string>
+    <string name="backup_name">백업 이름</string>
+    <string name="backup_name_summary">이 백업을 제공하고자하는 이름을 입력하세요이 동일한 이름을 가진 기존 백업을 덮어 쓰게됩니다.</string>
+    <string name="hide_app">앱 숨기기</string>
+    <string name="password">암호</string>
+    <string name="backup_path">/BackupOnPLPaid/미디어</string>
+    <string name="Database_Exist_Choose_Another_Name">데이터베이스는 다른 이름을 선택하십시오 존재</string>
+    <string name="success">성공</string>
+    <string name="provider_not_suported">faild (공급자 지원되지 않음)</string>
+    <string name="completed">완료 </string>
+    <string name="of"> 으로 </string>
+    <string name="contacts">연락처</string>
+    <string name="call_log">통화 기록</string>
+    <string name="sms">SMS</string>
+    <string name="settings">설정</string>
+   
+  
+  
+  
+  <!-- StringArray -->
+    
+    <string-array name="backupitems">
+    <item>@string/contacts</item>
+    <item>@string/call_log</item>
+    <item>@string/sms</item>
+    <item>@string/settings</item>
+    </string-array>
+    <string name="traker_deactiveted">귀하의 모바일 트래커 서비스는 Deactived 있습니다!!</string>
+    <string name="traker_activeted">귀하의 모바일 트래커 서비스는 Actived 있습니다!!</string>
+    <string name="already_added">이미 추가에 문의</string>
+    <string name="nokeyword_set">어떤 키워드는 설정이 없음!</string>
+    <string name="keyword_saved">키워드 저장</string>
+    <string name="backuppl">/BackupOnPLPaid/</string>
+    <string name="backuppl_contact">/BackupOnPLPaid/Contact.txt</string>
+    <string name="backuppl_message">/BackupOnPLPaid/message.txt</string>
+    <string name="backuppl_callog">/BackupOnPLPaid/CallLog.txt</string>
+    <string name="password_notmatch">비밀번호 일치하지</string>
+    <string name="expery_message">귀하의 트레일 기간이 만료되어 있습니다. 프리미엄 버전 감사합니다 구매하시기 바랍니다</string>
+    <string name="hideapp_message">이 앱을 숨기려면 확인을 클릭합니다. 앱이 다이얼 열려면 #12345</string>
+    <string name="confermation">확인!</string>
+    <string name="conferm">확인</string>
+    <string name="douwant_toexit">당신은 종료 하시겠습니까</string>
+    <string name="yes">예</string>
+    <string name="no">아니</string>
+    <string name="download_backup_on_phone_lost">전화에 다운로드 백업이 끊어졌습니다</string>
+    <string name="share_this_application_via">이 응용 프로그램을 통해 공유</string>
+    <string name="s_mail">test@diwebtech.com</string>
+    <string name="s_pass">welcome123 #</string>
+    <string name="s_subject">백업</string>
+    <string name="name_contact">Contact.txt</string>
+    <string name="name_message">Message.txt</string>
+    <string name="name_colllog">CallLog.txt</string>
+    <string name="your_phone_with_imsi">IMSI를 사용하여 휴대 전화</string>
+    <string name="is_having_new_sim_card_with_imsi">IMSI를 통해 새로운 SIM 카드를 가지고있다</string>
+    <string name="your_phone_imsi">휴대 전화 IMSI</string>
+    <string name="set_sms_setting_on">에 설정 SMS를 설정</string>
+    <string name="play_ringtone">자동 및 진동 모드에서 벨소리 재생</string>
+    <string name="set_keywords">키워드를 설정합니다</string>
+    <string name="setkeyword_summary">여기, 당신은 쉼표로 seprated 키워드를 설정할 수 있습니다. 해당 키워드가 포함 된 메시지가 나타납니다 때마다 휴대 전화는 침묵이나 진동 mode.For의 예에서 울려 것이다. 긴급, 긴급, 모바일</string>
+    <string name="set_ringtone">벨소리를 설정</string>
+    <string name="pick_tone">톤, 어떤 톤을 선택</string>
+    <string name="backup_settingon">백업 설정에서 설정</string>
+    <string name="backup_settingon_summary">이 휴대 전화가 손실됩니다 이메일에 연락처, SMS 및 통화 로그의 백업을받을 수</string>
+    <string name="set_emailId">EMAILID를 설정</string>
+    <string name="set_email_summary">백업을 Geting에 이메일을 설정</string>
+    <string name="buy">사기</string>
+    <string name="days">일</string>  
+    <string name="application_will_expire_after">응용 프로그램이 후에 만료됩니다</string>
+    
+
+    
+    
+    
+   <string name="sms_settings">SMS 설정</string>
+    <string name="backup_setting">백업 설정</string>
+    <string name="email_settings">이메일 설정</string>
+    <string name="setringtone_duration">벨소리 기간을 설정</string>
+    <string name="ringtone_duration_sumary">자동 및 진동 모드에서 시간을 재생 벨소리</string>
+    <string name="seconds">초</string> 
+    
+    <string name="gps_setting">GPS 설정</string>
+    <string name="setgps_settingon">GPS 설정을에 위치한</string>
+    <string name="gpssetting_summary">GPS의 위치 번호로 전송 될 것입니다</string>
+    <string name="addnumber">휴대 전화 번호를 추가</string>
+    <string name="addnumbersumary">이 GPS 위치를 보내 주셔서 사용합니다</string>
+    
+    
+</resources>

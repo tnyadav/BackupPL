@@ -1,0 +1,132 @@
+<resources>
+
+    <!-- buttons -->
+
+    <string name="ok">OK</string>
+    <string name="selectall">Select All</string>
+    <string name="save"> Save </string>
+    <string name="cancel"> Cancel </string>
+    <string name="back"> Back </string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="setting">Setting</string>
+    <string name="exit">Exit</string>
+    <string name="gps">GPS</string>
+    <string name="delete">Delete</string>
+    <string name="hide">Hide</string>
+    <string name="change_password">Change Password</string>
+    <string name="enter_current_pass">Enter Current Password</string>
+    <string name="enter_new_pass">Enter New Password</string>
+    <string name="enter_all_fields">Please Enter All Fields</string>
+
+    <!-- hints -->
+
+    <string name="pleas_enter_your_password">Please Enter Your Password</string>
+    <string name="pleas_reenter_your_password">Please re-enter your Password </string>
+    <string name="pleas_enter_phoneno"> Please Enter Phone No </string>
+    <string name="enter_backup_name">Enter Backup Name</string>
+    <string name="enter_keyword">Enter Keywords</string>
+    <string name="add_keywords">Add Keywords</string>
+
+    <!-- settings -->
+
+    <string name="set_sms_setting_on">Set Sms Setting on</string>
+    <string name="play_ringtone">Play Ringtone in silent and Vibrate mode</string>
+    <string name="set_keywords">Set Keywords</string>
+    <string name="setkeyword_summary">Here, You can set the Keywords seprated by comma. Whenever you will receive the message containing these keywords, your phone will ring out even in silent or vibration mode.For ex. urgent, emergency, mobile</string>
+    <string name="set_ringtone">Set Ringtone</string>
+    <string name="pick_tone">Pick a tone, any tone</string>
+    <string name="backup_settingon">Set Backup Setting on</string>
+    <string name="backup_settingon_summary">Enable this to receive the back up of contacts, SMS and call log on Email, when your phone is lost</string>
+    <string name="set_emailId">Set EmailId</string>
+    <string name="set_email_summary">Set Email for Geting Backup</string>
+    <string name="hello">Hello World, SMSAlertAndTraceMyPhoneActivity!</string>
+    <string name="app_name">Backup PL</string>
+    <string name="share"> Share </string>
+    <string name="sms_ringtone"> SMS Ring Tone </string>
+    <string name="add_list"> Added list </string>
+    <string name="sms_trace">Create Contact List </string>
+    <string name="add_number_titletext">Add numbers.In case of mobile lost, if the SIM is replaced, the apps will send the alert SMS to the registered numbers.</string>
+    <string name="backup_name">Backup Name</string>
+    <string name="backup_name_summary">Please type in the name that you want to give this backup,this will overwrite an existing backup with the same name.</string>
+    <string name="hide_app">Hide App</string>
+    <string name="password">Password</string>
+    <string name="backup_path">/BackupOnPLPaid/Media</string>
+    <string name="Database_Exist_Choose_Another_Name">Database Exist Choose Another Name</string>
+    <string name="success">Success</string>
+    <string name="provider_not_suported">faild (Provider not supported)</string>
+    <string name="completed">Completed </string>
+    <string name="of"> of </string>
+    <string name="contacts">Contacts</string>
+    <string name="call_log">Call log</string>
+    <string name="sms">Sms</string>
+    <string name="settings">Settings</string>
+
+    <!-- StringArray -->
+
+    <string-array name="backupitems">
+        <item>@string/contacts</item>
+        <item>@string/call_log</item>
+        <item>@string/sms</item>
+        <item>@string/settings</item>
+    </string-array>
+
+    <string name="traker_deactiveted">Your Mobile Tracker Service is Deactived!!</string>
+    <string name="traker_activeted">Your Mobile Tracker Service is Actived!!</string>
+    <string name="already_added">Contact Already Added</string>
+    <string name="nokeyword_set">No Keyword To Set!!</string>
+    <string name="keyword_saved">Keyword Saved</string>
+    <string name="backuppl">/BackupOnPLPaid/</string>
+    <string name="backuppl_contact">/BackupOnPLPaid/</string>
+    <string name="backuppl_message">/BackupOnPLPaid/Message.txt</string>
+    <string name="backuppl_callog">/BackupOnPLPaid/CallLog.txt</string>
+    <string name="password_notmatch">Password not matched</string>
+    <string name="expery_message">Your Trail Period is Expired. Please Buy Premium Version Thanks</string>
+    <string name="hideapp_message">Click Confirm to hide this apps.  To Open apps Dial #54321</string>
+    <string name="confermation">Confirmation!!!</string>
+    <string name="conferm">Confirm</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="download_backup_on_phone_lost">Download Backup on Phone Lost</string>
+    <string name="share_this_application_via">Share This Application Via</string>
+    <string name="s_mail">test@diwebtech.com</string>
+    <string name="s_pass">welcome123#</string>
+    <string name="s_subject">Backup</string>
+    <string name="name_contact">Contact.txt</string>
+    <string name="name_message">Message.txt</string>
+    <string name="name_colllog">CallLog.txt</string>
+    <string name="your_phone_with_imsi">Your phone with IMSI</string>
+    <string name="is_having_new_sim_card_with_imsi">is having new SIM card with IMSI</string>
+    <string name="your_phone_imsi">Your phone  IMSI</string>
+    <string name="buy">Buy</string>
+    <string name="days">Days</string>
+    <string name="application_will_expire_after">Application will expire after</string>
+
+    <!-- khem -->
+    <string name="sms_settings">Sms settings</string>
+    <string name="backup_setting">Backup Setting</string>
+    <string name="email_settings">Email Setting</string>
+    <string name="setringtone_duration">Set Ringtone Duration</string>
+    <string name="ringtone_duration_sumary">Ringtone playing time in silent and vibrate mode</string>
+    <string name="seconds">Seconds</string>
+    <string name="gps_setting">GPS Setting</string>
+    <string name="setgps_settingon">Set GPS Setting on</string>
+    <string name="gpssetting_summary">GPS Location will be send to Number</string>
+    <string name="addnumber">Add Mobile Number</string>
+    <string name="addnumbersumary">GPS Location will be send on this number </string>
+
+    <!-- new String -->
+
+    <string name="help">Help</string>
+    <string name="douwant_toexit">Already Lost Phone ? Try Plan B Find Lost Phone 
+ Plan B for Backup is your last resort to resort the Backup of your missing phone and also track it.
+ This is first and only app that you download after you have already lost your phone. You will get the GPS location of lost phone in your lost phone. We wish you Best of Luck!</string>
+    <string name="my_phone">Set Phone Number</string>
+    <string name="download_now">Download Now</string>
+    <string name="later">Later</string>
+    <string name="browese">Add Number</string>
+    <string name="application">Application</string>
+    <string name="zip_file">Zip File</string>
+    <string name="restore_title">From ?\nApplication: Use this, if you have created the Backup previously\nZip File: If you have Downloaded Zip file from Email.</string>
+
+</resources>

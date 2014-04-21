@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_track_my_mobile" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/layout_padding_left"
+        android:layout_marginRight="@dimen/layout_padding_right" >
+
+        <Button
+            android:id="@+id/btn_backup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/lbutton"
+            android:onClick="onClick"
+            android:text="@string/backup"
+            android:textSize="@dimen/buttentext_size" />
+
+        <Button
+            android:id="@+id/btn_restore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_backup"
+            android:layout_marginTop="@dimen/view_padding_top"
+            android:background="@drawable/lbutton"
+            android:onClick="onClick"
+            android:text="@string/restore"
+            android:textSize="@dimen/buttentext_size" />
+
+        <Button
+            android:id="@+id/btn_sms_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_restore"
+            android:layout_marginTop="@dimen/view_padding_top"
+            android:background="@drawable/lbutton"
+            android:onClick="onClick"
+            android:text="@string/setting"
+            android:textSize="@dimen/buttentext_size" />
+
+        <Button
+            android:id="@+id/btn_sms_trace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_sms_setting"
+            android:layout_marginTop="@dimen/view_padding_top"
+            android:background="@drawable/lbutton"
+            android:onClick="onClick"
+            android:text="@string/my_phone"
+            android:textSize="@dimen/buttentext_size" />
+
+        <Button
+            android:id="@+id/btn_app_hide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_sms_trace"
+            android:layout_marginTop="@dimen/view_padding_top"
+            android:background="@drawable/lbutton"
+            android:onClick="onClick"
+            android:text="@string/hide_app"
+            android:textSize="@dimen/buttentext_size" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_app_hide"
+            android:layout_marginTop="@dimen/view_padding_top"
+            android:background="@drawable/lbutton"
+            android:onClick="onClick"
+            android:text="@string/exit"
+            android:textSize="@dimen/buttentext_size" />
+<Button
+            android:id="@+id/btn_help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_exit"
+            android:layout_marginTop="@dimen/view_padding_top"
+            android:background="@drawable/lbutton"
+            android:onClick="onClick"
+            android:text="@string/help"
+            android:textSize="@dimen/buttentext_size" />
+        <Button
+            android:id="@+id/share"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@+id/btn_help"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/view_padding_top"
+            android:background="@drawable/share"
+            android:onClick="onClick"
+            android:textSize="@dimen/buttentext_size" />
+
+        <Button
+            android:id="@+id/rate"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/share"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/view_padding_top"
+            android:background="@drawable/rate"
+            android:onClick="onClick"
+            android:textSize="@dimen/buttentext_size" />
+
+    </RelativeLayout>
+</RelativeLayout>

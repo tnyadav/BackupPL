@@ -1,0 +1,130 @@
+
+<resources>
+
+
+ <!-- buttons -->
+
+    <string name="ok">[OK]を</string>
+    <string name="selectall">[すべて]を選択します</string>
+    <string name="save"> 保存 </string>
+    <string name="cancel"> キャンセル </string>
+    <string name="back"> バック </string>
+    <string name="backup">バックアップ</string>
+    <string name="restore">復元する</string>
+    <string name="setting">設定</string>
+    <string name="exit">終了する</string>
+    <string name="browese">Browese</string>
+    <string name="my_phone">私の電話</string>
+    <string name="gps">GPS</string>
+    <string name="delete">削除</string>
+    <string name="hide">隠す</string>
+    <string name="change_password">パスワードを変更する</string>
+    <string name="enter_your_new_password">新しいパスワードを入力</string>
+    <string name="enter_your_current_password">現在のパスワードを入力し</string>
+    <string name="please_enter_all_fields">すべてのフィールドを入力してください</string>
+    
+    
+ <!-- hints -->
+ 
+    <string name="pleas_enter_your_password">あなたのパスワードを入力します</string>
+    <string name="pleas_reenter_your_password">パスワードを再入力してください </string>
+    <string name="pleas_enter_phoneno"> なし電話番号を入力してくださいませ </string>
+    <string name="enter_backup_name">バックアップ名を入力してください</string>
+    <string name="enter_keyword">キーワードを入力して</string>
+    <string name="add_keywords">キーワードを追加</string>
+    
+    
+    <string name="hello">Hello Worldの、SMSAlertAndTraceMyPhoneActivity！</string>
+    <string name="app_name">バックアップのOT</string>
+    <string name="share"> シェア </string>
+    <string name="sms_ringtone"> SMSの着信音 </string>
+    <string name="add_list"> 追加されたリスト </string>
+    <string name="sms_trace">連絡先リストを作成 </string>
+    <string name="set_email">メール設定</string>
+    <string name="add_number_titletext">SIMが交換された場合、アプリが登録されている番号にアラートSMSを送信し、携帯紛失のnumbers.Inケースを追加します。</string>
+    <string name="backup_name">バックアップ名</string>
+    <string name="backup_name_summary">このバックアップに付けたい名前を入力してください、これは、同じ名前の既存のバックアップを上書きします。</string>
+    <string name="hide_app">アプリケーションを隠す</string>
+    <string name="password">パスワード</string>
+    <string name="backup_path">/BackupOnPLPaid/メディア</string>
+    <string name="Database_Exist_Choose_Another_Name">データベースが別の名前を選択し存在</string>
+    <string name="success">Success</string>
+    <string name="provider_not_suported">faild（プロバイダはサポートされません）</string>
+    <string name="completed">完成した </string>
+    <string name="of"> の </string>
+    <string name="contacts">コンタクト</string>
+    <string name="call_log">コールログ</string>
+    <string name="sms">SMS</string>
+    <string name="settings">設定</string>
+   
+  
+  
+  
+  <!-- StringArray -->
+    
+    <string-array name="backupitems">
+    <item>@string/contacts</item>
+    <item>@string/call_log</item>
+    <item>@string/sms</item>
+    <item>@string/settings</item>
+    </string-array>
+    <string name="traker_deactiveted">あなたのモバイルトラッカーサービスはDeactivedさ！</string>
+    <string name="traker_activeted">あなたのモバイルトラッカーサービスはActivedさ！</string>
+    <string name="already_added">すでに追加お問い合わせ</string>
+    <string name="nokeyword_set">noキーワードを設定しない場合は！</string>
+    <string name="keyword_saved">キーワードは保存され</string>
+    <string name="backuppl">/ BackupOnPLPaid/</string>
+    <string name="backuppl_contact">/ BackupOnPLPaid/ Contact.txt</string>
+    <string name="backuppl_message">/ BackupOnPLPaid/ Message.txt</string>
+    <string name="backuppl_callog">/ BackupOnPLPaid/ CallLog.txt</string>
+    <string name="password_notmatch">パスワードは一致していない</string>
+    <string name="expery_message">あなたのトレイル期間が終了しています。プレミアムバージョンのおかげで購入してください</string>
+    <string name="hideapp_message">このアプリを非表示にするには、[Confirm]をクリックしますアプリはダイヤル開くために#54321</string>
+    <string name="confermation">確認！</string>
+    <string name="conferm">確認する</string>
+    <string name="douwant_toexit">あなたが終了してよろしいですか？</string>
+    <string name="yes">はい</string>
+    <string name="no">ノー</string>
+    <string name="download_backup_on_phone_lost">Phoneのダウンロードバックアップが失われた</string>
+    <string name="share_this_application_via">このアプリケーションを介して共有</string>
+    <string name="s_mail">test@diwebtech.com</string>
+    <string name="s_pass">welcome123＃</string>
+    <string name="s_subject">バックアップ</string>
+    <string name="name_contact">Contact.txt</string>
+    <string name="name_message">Message.txt</string>
+    <string name="name_colllog">CallLog.txt</string>
+    <string name="your_phone_with_imsi">IMSIをお使いの携帯電話</string>
+    <string name="is_having_new_sim_card_with_imsi">IMSIで新しいSIMカードを持っている</string>
+    <string name="your_phone_imsi">お使いの携帯電話のIMSI</string>
+    <string name="set_sms_setting_on">に設定するSMSを設定する</string>
+    <string name="play_ringtone">サイレントとバイブレーションモードで着信音を再生する</string>
+    <string name="set_keywords">キーワードを設定する</string>
+    <string name="setkeyword_summary">ここでは、カンマでsepratedキーワードを設定することができます。あなたはこれらのキーワードを含むメッセージを受信するときはいつも、あなたの電話があっても、サイレントまたは振動mode.For EXで出音が鳴ります。緊急、緊急、携帯</string>
+    <string name="set_ringtone">着信音を設定</string>
+    <string name="pick_tone">トーン、任意のトーンを選ぶ</string>
+    <string name="backup_settingon">バックアップ設定をオンに設定</string>
+    <string name="backup_settingon_summary">これはお使いの携帯電話が失われた電子メールで連絡先、SMSと通話ログのバックアップを、受信できるようにする</string>
+    <string name="set_emailId">EMAILIDを設定</string>
+    <string name="set_email_summary">バックアップをGetingの電子メールを設定</string>
+    <string name="buy">買う</string>
+    <string name="days">日 </string>
+    <string name="application_will_expire_after">アプリケーションは後に期限切れになります</string>
+     
+    
+    
+  
+    <string name="sms_settings">SMS設定</string>
+    <string name="backup_setting">バックアップの設定</string>
+    <string name="email_settings">メールの設定</string>
+    <string name="setringtone_duration">着信音の時間を設定</string>
+    <string name="ringtone_duration_sumary">サイレントと振動モードの時間を遊んで着信音</string>
+    <string name="seconds">秒</string>
+    
+    <string name="gps_setting">GPSの設定</string>
+    <string name="setgps_settingon">GPSの設定をオンに設定</string>
+    <string name="gpssetting_summary">GPS位置情報はNumberに送信されます</string>
+    <string name="addnumber">携帯電話番号を追加</string>
+    <string name="addnumbersumary">これは、GPS位置情報を送信するために使用します</string>
+    
+
+</resources>
