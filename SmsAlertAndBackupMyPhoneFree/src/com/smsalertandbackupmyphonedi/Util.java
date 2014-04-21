@@ -11,7 +11,7 @@ public class Util {
 	public static final String PLANB_URL="http://www.amazon.com/gp/mas/dl/android?p=com.planbdi";
 	
 	public static final boolean isGoogle = true;
-	
+	public static final boolean testMode = false;
 	
 	public static String getIMEI(Context context)
 	{

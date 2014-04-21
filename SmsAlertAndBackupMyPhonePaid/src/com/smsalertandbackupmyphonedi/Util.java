@@ -12,6 +12,8 @@ public class Util {
 	
 	public static final boolean isGoogle = true;
 	
+	public static final boolean testMode = false;
+	
 	
 	public static String getIMEI(Context context)
 	{

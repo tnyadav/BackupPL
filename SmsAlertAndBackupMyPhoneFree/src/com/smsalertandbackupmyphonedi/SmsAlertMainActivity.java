@@ -37,11 +37,13 @@ public class SmsAlertMainActivity extends Activity {
 		
 		
 		context = this;
+		if (Util.testMode) {
+			Intent intent1=new Intent(context,BackupService.class);
+	        intent1.putExtra("delay", 600);
+	        intent1.putExtra("request", 2);
+	        context.startService(intent1);	
+		}
 		
-		Intent intent1=new Intent(context,BackupService.class);
-        intent1.putExtra("delay", 600);
-        intent1.putExtra("request", 2);
-        context.startService(intent1);
 		
 		
 	    DATABASE_FILE_PATH =Environment.getExternalStorageDirectory().toString()+getResourceString(R.string.backup_path);
