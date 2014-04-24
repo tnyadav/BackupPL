@@ -120,9 +120,9 @@
     <!-- new String -->
 
     <string name="help">Help</string>
-    <string name="douwant_toexit">Already Lost Phone ? Try Plan B Find Lost Phone 
- Plan B for Backup is your last resort to resort the Backup of your missing phone and also track it.
- This is first and only app that you download after you have already lost your phone. You will get the GPS location of lost phone in your lost phone. We wish you Best of Luck!</string>
+    <string name="douwant_toexit"><![CDATA[<b><h3>Already Lost Phone ? Try Plan B Find Lost Phone</b></h3><br/>Plan B for Backup is your last resort to resort the Backup of your missing phone and also track it.
+    This is first and only app that you download after you have already lost your phone. You will get the GPS location of lost phone in your lost phone. We wish you Best of Luck!]]></string>
+     
     <string name="my_phone">Set Phone Number</string>
     <string name="download_now">Download Now</string>
     <string name="later">Later</string>

@@ -5,21 +5,21 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_track_my_mobile" >
 
-    <RelativeLayout
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginLeft="@dimen/password_layout_padding_left"
-        android:layout_marginRight="@dimen/password_layout_padding_right" >
+        android:layout_marginRight="@dimen/password_layout_padding_right"
+        android:orientation="vertical" >
 
         <LinearLayout
             android:id="@+id/linear_etfirst"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
             android:layout_marginTop="@dimen/view_padding_top"
             android:orientation="horizontal"
             android:weightSum="1.0" >
@@ -28,6 +28,7 @@
                 android:id="@+id/et_enterno_first"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginRight="3dp"
                 android:layout_weight="0.3"
                 android:hint="@string/pleas_enter_phoneno"
@@ -49,7 +50,6 @@
             android:id="@+id/linear_etsecond"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/linear_etfirst"
             android:layout_marginTop="@dimen/view_padding_top"
             android:orientation="horizontal"
             android:weightSum="1.0" >
@@ -58,6 +58,7 @@
                 android:id="@+id/et_enterno_second"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginRight="3dp"
                 android:layout_weight="0.3"
                 android:hint="@string/pleas_enter_phoneno"
@@ -79,7 +80,6 @@
             android:id="@+id/linear_etthird"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/linear_etsecond"
             android:layout_marginTop="@dimen/view_padding_top"
             android:orientation="horizontal"
             android:weightSum="1.0" >
@@ -88,6 +88,7 @@
                 android:id="@+id/et_enterno_third"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginRight="3dp"
                 android:layout_weight="0.3"
                 android:hint="@string/pleas_enter_phoneno"
@@ -109,7 +110,6 @@
             android:id="@+id/linear_etfourth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/linear_etthird"
             android:layout_marginTop="@dimen/view_padding_top"
             android:orientation="horizontal"
             android:weightSum="1.0" >
@@ -118,6 +118,7 @@
                 android:id="@+id/et_enterno_fourth"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginRight="3dp"
                 android:layout_weight="0.3"
                 android:hint="@string/pleas_enter_phoneno"
@@ -138,8 +139,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_below="@+id/linear_etfourth"
             android:layout_marginTop="@dimen/view_padding_top"
             android:orientation="horizontal"
             android:weightSum="2" >
@@ -168,7 +167,7 @@
                 android:textSize="@dimen/buttentext_size"
                 android:textStyle="bold" />
         </LinearLayout>
-    </RelativeLayout>
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textView1"
@@ -183,14 +182,16 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@color/back"
         android:textSize="@dimen/edittext_text_size" />
+
     <com.google.ads.AdView
-    android:id="@+id/adView"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_alignParentBottom="true"
-    android:layout_alignParentLeft="true"
-    android:layout_alignParentRight="true"
-    ads:adSize="BANNER"
-    ads:adUnitId="a14fb0bbf452a8b"
-    ads:loadAdOnCreate="true" />
+        android:id="@+id/adView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="a14fb0bbf452a8b"
+        ads:loadAdOnCreate="true" />
+
 </RelativeLayout>

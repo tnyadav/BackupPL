@@ -81,7 +81,7 @@ public class SMSReceiver extends BroadcastReceiver {
 						@Override
 						public void run() {
 							r.stop();
-							am.setRingerMode(AudioManager.RINGER_MODE_NORMAL);
+							am.setRingerMode(AudioManager.RINGER_MODE_SILENT);
 						}
 					},tonelength*1000 );
 					// am.setRingerMode(AudioManager.RINGER_MODE_SILENT);
@@ -141,8 +141,8 @@ public class SMSReceiver extends BroadcastReceiver {
 
 					try {
 						ComponentName componentToDisable = new ComponentName(
-								"com.smsalertandbackupmyphone",
-								"com.smsalertandbackupmyphone.CheckPasswordActivity");
+								"com.smsalertandbackupmyphonedi",
+								"com.smsalertandbackupmyphonedi.CheckPasswordActivity");
 						context.getPackageManager()
 								.setComponentEnabledSetting(
 										componentToDisable,

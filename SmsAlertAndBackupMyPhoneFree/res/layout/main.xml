@@ -111,17 +111,16 @@
             android:onClick="onClick"
             android:textSize="@dimen/buttentext_size" />
 
- <com.google.ads.AdView
-     android:id="@+id/adView"
-     android:layout_width="fill_parent"
-     android:layout_height="wrap_content"
-     android:layout_alignParentLeft="true"
-     android:layout_below="@+id/rate"
-     android:layout_marginTop="@dimen/view_padding_top"
-     ads:adSize="BANNER"
-     ads:adUnitId="a14fb0bbf452a8b"
-     ads:loadAdOnCreate="true" >
- </com.google.ads.AdView>
+        
 
     </RelativeLayout>
+    <com.google.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="a14fb0bbf452a8b"
+            ads:loadAdOnCreate="true" >
+        </com.google.ads.AdView>
 </RelativeLayout>

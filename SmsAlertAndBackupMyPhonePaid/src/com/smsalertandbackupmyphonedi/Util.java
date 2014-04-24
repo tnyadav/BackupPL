@@ -8,7 +8,7 @@ public class Util {
 	public static final String FILE_UPLOAD_URL="http://dicorporation.com/PlanB/Services/backuppl_paid_uploadfiles.php";
 	public static final String GOOGLE_SHARE_URL="https://play.google.com/store/apps/details?id=com.smsalertandbackupmyphonedi";
 	public static final String AMEZON_RATE_URL="http://www.amazon.com/gp/mas/dl/android?p=com.smsalertandbackupmyphonedi";
-	public static final String PLANB_URL="http://www.amazon.com/gp/mas/dl/android?p=com.planbdi";
+	public static final String PLANB_URL="https://play.google.com/store/apps/details?id=com.planbdi";
 	
 	public static final boolean isGoogle = true;
 	

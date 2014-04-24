@@ -16,6 +16,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.text.Html;
 import android.util.Log;
 import android.view.View;
 
@@ -165,7 +166,7 @@ alertD.show();
 			break;
 		case R.id.btn_exit:
 	
-		showDialog(getResourceString(R.string.douwant_toexit));
+		showExitDialog();
 			break;
 			
 		case R.id.share:
@@ -194,10 +195,10 @@ alertD.show();
 
 	}
 	@SuppressWarnings("deprecation")
-	public void  showDialog(String message) {
-		AlertDialog ad = new AlertDialog.Builder(context).create();
+	public void  showExitDialog() {
+		AlertDialog ad = new AlertDialog.Builder(context,AlertDialog.THEME_HOLO_LIGHT).create();
 		ad.setCancelable(false); // This blocks the 'BACK' button
-		ad.setMessage(message);
+		ad.setMessage(Html.fromHtml(getString(R.string.douwant_toexit)));
 		
 		ad.setButton(getResourceString(R.string.later), new DialogInterface.OnClickListener() {
 		    @Override
