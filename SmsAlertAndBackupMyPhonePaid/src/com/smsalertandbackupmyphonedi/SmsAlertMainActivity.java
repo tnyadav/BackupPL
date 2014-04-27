@@ -19,6 +19,7 @@ import android.os.Environment;
 import android.text.Html;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 
 import com.database.SelectDataBackupActivity;
 import com.database.SelectDatabaseFromSdcardActivity;
@@ -71,9 +72,13 @@ public class SmsAlertMainActivity extends Activity {
 		case R.id.btn_restore:
             AlertDialog.Builder alertDialogBuilder1 = new AlertDialog.Builder(context);
 		
-                    alertDialogBuilder1
-                     .setMessage(R.string.restore_title)
-                    .setPositiveButton(R.string.application, new DialogInterface.OnClickListener() {
+                  
+        View v=(getLayoutInflater().inflate(R.layout.dia, null));
+		TextView msg=(TextView)v.findViewById(R.id.title);
+		msg.setText(getString(R.string.restore_title));
+		alertDialogBuilder1.setView(v);
+                     
+		alertDialogBuilder1.setPositiveButton(R.string.application, new DialogInterface.OnClickListener() {
 
                                 public void onClick(DialogInterface dialog, int id) {
 
@@ -82,9 +87,9 @@ public class SmsAlertMainActivity extends Activity {
 
                                 }
 
-                            })
+                            });
 
-                    .setNegativeButton(R.string.zip_file,
+                    alertDialogBuilder1.setNegativeButton(R.string.zip_file,
 
                             new DialogInterface.OnClickListener() {
 
@@ -196,9 +201,13 @@ alertD.show();
 	}
 	@SuppressWarnings("deprecation")
 	public void  showExitDialog() {
-		AlertDialog ad = new AlertDialog.Builder(context,AlertDialog.THEME_HOLO_LIGHT).create();
-		ad.setCancelable(false); // This blocks the 'BACK' button
-		ad.setMessage(Html.fromHtml(getString(R.string.douwant_toexit)));
+		AlertDialog ad = new AlertDialog.Builder(context).create();
+		ad.setCancelable(false);
+		
+		View v=(getLayoutInflater().inflate(R.layout.dia, null));
+		TextView msg=(TextView)v.findViewById(R.id.title);
+		msg.setText(Html.fromHtml(getString(R.string.douwant_toexit)));
+		ad.setView(v);
 		
 		ad.setButton(getResourceString(R.string.later), new DialogInterface.OnClickListener() {
 		    @Override
